@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Midas Investing App">
+    <meta name="description" content="Midas Investing App Mobile">
+
+    <!-- Font Google (Apple Font) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- Link To CSS File -->
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" media="(max-width:500px)" href="homepage-mobile.css">
+
+    <!-- Title & Logo -->
+    <title>Midas</title>
+    <link rel="icon" href="icons/midas-logo.jpg">
+
+</head>
+<body>
+
+    <section id="main_section">
+        <div class="top_bar">
+            <div class="welcome">Merhaba, Ömer 👋</div>
+            <div class="icons">
+                <div id="sand_clock"><img src="icons/ana-sayfa/topbar-sandclock.png" alt="sandclock"></div>
+                <div id="clock"><img src="icons/ana-sayfa/topbar-alarmclock.png" alt="clock"></div>
+            </div>
+        </div>
+        <div class="exchange_status">
+            <div class="exchanges">
+                <div id="borsa_ist"><img src="icons/ana-sayfa/online.png" alt="bist"><div>Borsa İstanbul</div></div>
+                <div id="amerikan_borsalari"><img src="icons/ana-sayfa/offline.png" alt="busa">
+                    <div>Amerikan Borsaları</div></div>
+            </div>
+            <div class="info"><img id="info" src="icons/ana-sayfa/info.png" alt="info"></div>
+        </div>
+        <div class="earnings">
+            <div class="earnings_content">
+                <div class="earnings_title">Toplam Varlık</div>
+                <div class="earnings_total"><div class="earnings_count"><b>₺54.047,19</b></div><div><img src="icons/ana-sayfa/eye.png" alt="eye" class="eye_icon"></div></div>
+                <div class="earnings_today"><b><div class="earnings_count_today">+₺ 47,19 (+4,72%)</div></b><div class="earnings_count_today_text">Bugün</div></div>
+            </div>
+        </div>
+
+        <div class="alim_gucu">
+            <div class="tl_alim_gucu">
+                <div class="tl_content">
+                    <div class="tl_alim_gucu_text">TL Alım Gücü</div>
+                    <b><div class="tl_alim_gucu_amount">₺53.049,80</div></b>
+                </div>
+                <div class="tl_line"></div>
+                <div class="plus_icon"><img src="icons/ana-sayfa/plus_icon.png" alt="plus" id="p_icon"></div>
+            </div>
+            <div class="usd_alim_gucu">
+                <div class="usd_content">
+                    <div class="usd_alim_gucu_text">USD Alım Gücü</div>
+                    <b><div class="usd_alim_gucu_amount">$0,00</div></b>
+                </div>
+                <div class="usd_line"></div>
+                <div class="loop_icon"><img src="icons/ana-sayfa/loop_icon.png" alt="loop" id="l_icon"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="myinvestings">
+        <div class="investings_topbar">
+            <b><div class="myinvestings_title">Yatırımlarım</div></b>
+            <div class="total_value">Toplam Değer (G)</div>
+        </div>
+        <div class="myinvestings_content">
+            <div class="bist_total">
+                <div class="bist_title">Borsa İstanbul</div>
+                <div class="bist_amount_total">
+                    <b><div class="bist_total">₺579,00</div></b>
+                    <b><div class="btotal_earnings">+₺47,40 (+9,45%)</div></b>
+                </div>
+            </div>
+            <div class="horizontal_line"></div>
+            <div class="sharings_list">
+                <div class="sharings_info">
+                    <div class="sharings_img_name_price">
+                        <div class="sharings_img"><div class="aztek-icon">A</div></div>
+                        <div class="sharings_name_price">
+                            <div class="sharings_name">AZTEK</div>
+                            <div class="sharings_price">₺91,50</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sharings_money_earnings">
+                    <div class="sharings_money">₺549,00</div>
+                    <b><div class="sharings_earnings">+₺47,40 (+9,45%)</div></b>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="mylists">
+        <div class="mylists_topbar">
+            <b><div class="mylists_title">Listelerim</div></b>
+            <div class="mylists_add_lists">Takip Listesi Ekle</div>
+        </div>
+        <div class="center_myfollowings">
+            <div class="myfollowings">
+                <div class="myfollowings_icon">👀</div>
+                <b><div class="myfollowings_title">Takip Ettiklerim</div></b>
+                <div class="myfollowings_amount">4 Liste</div>
+            </div>
+        </div>
+    </section>
+
+    <header>
+        <div class="NavbarContainer">
+            <nav id="navbar">
+                <ul>
+                    <li class="nav-icon"><a href="#"><img src="icons/navbar/Anasayfa-Blue.png" alt="Anasayfa" id="anasayfa"></a></li>
+                    <li class="nav-icon"><a href="markets.html"><img src="icons/navbar/Piyasalar.png" alt="Piyasalar" id="piyasalar"></a></li>
+                    <li class="nav-icon"><a href="#"><img src="icons/navbar/Kesfet.png" alt="Keşfet" id="kesfet"></a></li>
+                    <li class="nav-icon"><a href="#"><img src="icons/navbar/Destek.png" alt="Destek" id="destek"></a></li>
+                    <li class="nav-icon"><a href="#"><img src="icons/navbar/Profil.png" alt="Profil" id="profil"></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+</body>
+</html>
