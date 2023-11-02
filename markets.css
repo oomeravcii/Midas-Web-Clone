@@ -1,8 +1,13 @@
 * {
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
+    box-sizing: content-box;
     font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+html {
+    background-color: rgb(18, 19, 24);
 }
 
 /* Navbar */
@@ -66,4 +71,212 @@
     padding: 0px;
     width: 33px;
     height: auto;
+}
+
+/* Title */
+
+
+.titles {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+
+.markets {
+    font-size: 25px;
+    margin-top: 4px;
+}
+
+.usa_markets_all {
+    background-color: rgb(76, 32, 21);
+    border-radius: 20px;
+    height: 40px;
+    width: 150px;
+}
+
+.usaMarkets_icon_and_content {
+    display: flex;
+}
+
+.icon_usa {
+    margin-top: 7px;
+    margin-left: 13px;
+}
+
+#usa_flag {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.usa_markets_title {
+    font-size: 10px;
+    margin-top: 8px;
+    margin-left: 5px;
+    letter-spacing: 1px;
+    color: rgb(251, 232, 225);
+}
+
+.usa_markets_value {
+    font-size: 12px;
+    margin-left: 5px;
+    letter-spacing: 1.5px;
+    margin-top: 1px;
+    color: rgb(238, 134, 115);
+    margin-left: 6px;
+}
+
+/* Buttons */
+
+.buttons {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    /* margin-right: 12%; */
+}
+
+.usa_markets_text, .usa_markets_line {
+    color: rgb(112, 126, 226);
+    cursor: pointer;
+}
+
+.usa_markets_button:hover {
+    opacity: 0.7;
+}
+
+.bist_markets_text {
+    color: rgb(185, 185, 193);
+    cursor: pointer;
+}
+
+.bist_markets_line {
+    color: rgb(59, 60, 68);
+    cursor: pointer;
+}
+
+.bist_markets_button:hover {
+    opacity: 0.7;
+}
+
+.usa_markets_line_long {
+    height: 1.1px;
+    width: 70%;
+    background-color: rgb(112, 126, 226);
+    margin-top: 34px;
+}
+
+.bist_markets_line_long {
+    height: 1.1px;
+    width: 130%;
+    background-color: rgb(59, 60, 68);
+    margin-top: 34px;
+}
+
+/* Featured Title */
+
+.featured {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 29%;
+}
+
+/* Categories */
+
+.center_categories {
+    display: flex;
+    justify-content: center;
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.active_category {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(38, 46, 93);
+    color: rgb(107, 130, 244);
+    border-radius: 7px;
+    height: 37px;
+    width: 160px;
+    cursor: pointer;
+    margin-right: 3%;
+}
+
+.most_value_text {
+    color: rgb(107, 130, 244);
+}
+
+.inactive_category {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(52, 55, 63);
+    border-radius: 7px;
+    height: 35px;
+    width: 160px;
+    cursor: pointer;
+}
+
+#least_value {
+    margin-right: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 500px) {
+
+    body {
+        font-size: 15px; 
+    }
+
+    #navbar ul li {
+        padding-right: 10px; 
+    }
+
+    .usa_markets_line_long {
+        display: none;
+    }
+
+    .bist_markets_line_long, #most_popular {
+        display: none;
+    }
+
+    .buttons {
+        margin-right: 45px;
+    }
+ 
 }
